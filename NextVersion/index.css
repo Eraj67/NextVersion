@@ -1,0 +1,69 @@
+body {
+  background: #7c3aed;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Georgia, serif;
+}
+
+nav {
+  background: rgba(255,255,255,0.1);
+  padding: 1rem 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+nav a { color: #f3f0ff; 
+  text-decoration: none; 
+  font-family: sans-serif; 
+  font-size: 15px; 
+}
+nav a:hover { 
+  text-decoration: underline; 
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 4rem 2rem;
+  gap: 1.2rem;
+}
+.avatar {
+  width: 100px; height: 100px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.15);
+  border: 2px solid rgba(255,255,255,0.35);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 28px; color: #f3f0ff;
+  font-family: sans-serif;
+}
+h1 { font-size: 36px; color: #f3f0ff; margin: 0; }
+.role-badge {
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.25);
+  border-radius: 999px;
+  padding: 6px 18px;
+  color: #ddd6fe;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+.bio {
+  max-width: 480px;
+  color: #e9d5ff;
+  font-size: 20px;
+  line-height: 1.75;
+  font-family: sans-serif;
+}
+.tagline { color: #c4b5fd;
+font-style: italic;
+font-size: 20px;
+font-weight: 100;
+}
+.tagline2 { color: #c4b5fd;
+font-size: 19px; 
+letter-spacing: 0.05em; 
+font-family: sans-serif;
+font-weight: 100; 
+}
